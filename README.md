@@ -1,7 +1,7 @@
 # TikTok-Downloader
 TikTok Bulk Downloader adalah script Python sederhana untuk mengunduh video TikTok secara masal menggunakan API downloader pihak ketiga. Video akan diunduh dengan kualitas HD tanpa watermark dan disimpan dalam format .mp4 di folder yang ditentukan. Nama file video disusun dari author dan title video.
 
-## 1. Requirements
+## Requirements
 --------------------
 
 Daftar pustaka dan dependensi yang diperlukan agar script dapat berjalan:
@@ -15,9 +15,9 @@ Daftar pustaka dan dependensi yang diperlukan agar script dapat berjalan:
 Buat file bernama `requirements.txt` dan tambahkan baris berikut:
 pip install -r requirements.txt
 
-### 3. Cara Penggunaan
---------------------
-Langkah 1: Persiapkan Lingkungan
+### Cara Penggunaan
+
+### Langkah 1: Persiapkan Lingkungan
 Pastikan Python 3.7+ telah terinstal di komputer.
 
 Untuk memeriksa versi Python:
