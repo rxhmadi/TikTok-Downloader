@@ -13,19 +13,19 @@ Daftar pustaka dan dependensi yang diperlukan agar script dapat berjalan:
 ## Cara Instalasi Requirements
 
 Buat file bernama `requirements.txt` dan tambahkan baris berikut:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### Cara Penggunaan
 
 ### Langkah 1: Persiapkan Lingkungan
-Pastikan Python 3.7+ telah terinstal di komputer.
+**Pastikan Python 3.7+ telah terinstal di komputer.**
 
 Untuk memeriksa versi Python:
 
-python --version
+`python --version`
 Instal pustaka yang dibutuhkan:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### Langkah 2: Siapkan Input
 Buat file bernama urls.txt di direktori yang sama dengan script.
@@ -37,8 +37,8 @@ https://www.tiktok.com/@kharisma_ptw/video/7430678914437057800
 ### Langkah 3. Jalankan Script
 Jalankan script dengan perintah:
 
+`python tiktok.py`
 
-python tiktok.py
 Video akan diunduh ke folder downloads secara otomatis.
 
 ### 4. Output
@@ -49,7 +49,7 @@ Nama file mengikuti format:
 `[author] - [title].mp4`
 Contoh:
 
-downloads/kharisma_ptw - met bobo semuanyaaaa 😁.mp4
+`downloads/kharisma_ptw - met bobo semuanyaaaa 😁.mp4`
 
 ### 5. Troubleshooting
 Jika menghadapi masalah:
@@ -61,6 +61,7 @@ Pastikan API URL masih aktif dan menerima permintaan.
 Jika error berlanjut, coba jalankan script dengan menambahkan log debug:
 
 `import logging`
-logging.basicConfig(level=logging.DEBUG)
+`logging.basicConfig(level=logging.DEBUG)`
+
 Dengan panduan ini, siapa pun dapat dengan mudah menggunakan script Anda untuk mengunduh video TikTok secara massal! 🚀✨
 
