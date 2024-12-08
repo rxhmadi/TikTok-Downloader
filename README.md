@@ -39,7 +39,7 @@ https://www.tiktok.com/@kharisma_ptw/video/7430678914437057800
 ### Langkah 3. Jalankan Script
 Jalankan script dengan perintah:
 
-`python tiktok.py`
+`python app.py`
 
 Video akan diunduh ke folder downloads secara otomatis.
 
